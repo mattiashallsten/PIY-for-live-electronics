@@ -12,7 +12,7 @@ The score is included in the file [form.pdf](form.pdf), and all the SuperCollide
 
 ### [sc/menu.scd](sc/menu.scd)
 
-![menu.png][screenshots/menu.png]
+![menu.png](screenshots/menu.png)
 
 With this patch the user changes a selected parameter via a drop-down menu. The available params are: 
 
