@@ -8,6 +8,14 @@ The score is included in the file [form.pdf](form.pdf), and all the SuperCollide
 
 - Laptop running [SuperCollider](https://supercollider.github.io/download)
 
+## Installation/download
+
+To download this repository, press the green "Clone or download" dropdown menu in the top right of this page and select "Download zip". Alternetivly, if you have `git` installed, in a command line type:
+
+```
+git clone https://github.com/mattiashallsten/PYI-for-live-electronics.git
+```
+
 ## Patches
 
 ### [sc/menu.scd](sc/menu.scd)
