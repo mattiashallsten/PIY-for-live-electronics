@@ -16,25 +16,15 @@ The score is included in the file [form.pdf](form.pdf), and all the SuperCollide
 
 With this patch the user changes a selected parameter via a drop-down menu. The available params are: 
 
-#### onOff
+**onOff** - The user turn the piano on or off.
 
-The user turn the piano on or off.
+**suspedal** - The user turns on or off the sustain pedal.
 
-#### suspedal
+**chord** - The user changes wether or not a chord can be played.
 
-The user turns on or off the sustain pedal.
+**Transpose** - The user changes the root note.
 
-#### chord
-
-The user changes wether or not a chord can be played.
-
-#### Transpose
-
-The user changes the root note.
-
-#### Scale
-
-The user changes the modality: major, minor or hamronic minor.
+**Scale** - The user changes the modality: major, minor or hamronic minor.
 
 ### [sc/slider.scd](sc/slider.scd)
 
@@ -42,33 +32,19 @@ The user changes the modality: major, minor or hamronic minor.
 
 With this patch the user changes a selected parameter via a slider, which has the possibility of being connected to a midi-enabled hardware controller. The available params are:
 
-#### freq
+**freq** - The user changes the "base frequency".
 
-The user changes the "base frequency".
+**time** - The user changes the overall tempo.
 
-#### time
+**freqRange** - The user changes the range of notes that can be played.
 
-The user changes the overall tempo.
+**timeChance** - The user changes the probability of 16th notes instead of 8th notes.
 
-#### freqRange
+**legato** - The user changes the legato parameter.
 
-The user changes the range of notes that can be played.
+**velCenter** - The user changes the overall velocity.
 
-#### timeChance
-
-The user changes the probability of 16th notes instead of 8th notes.
-
-#### legato
-
-The user changes the legato parameter.
-
-#### velCenter
-
-The user changes the overall velocity.
-
-#### reverb
-
-The user changes the amount of reverb.
+**reverb** - The user changes the amount of reverb.
 
 ### [sc/note-in.scd](sc/note-in.scd)
 
