@@ -7,7 +7,7 @@ Here you select what to control. Change the control variable (currently says '/f
 * '/suspedal'				turn on or off the sustain pedal
 * '/chord'					controls if there can be chords played
 * '/transpose'				change the root note
-* '/scale'					change modality: major, minor och harmonic minor
+* '/scale'					change modality: major, minor or harmonic minor
 */
 var control = '/chord';
 
