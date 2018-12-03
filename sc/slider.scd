@@ -47,6 +47,8 @@ var freqRangeState = 0.5;
 var tempoChanceState = 0.5;
 var legatoState = 0.5;
 
+var label = control.asString.replace("/", "");
+
 MIDIClient.init;
 MIDIIn.connectAll;
 
@@ -55,13 +57,16 @@ window.layout = VLayout(
 		StaticText().string_("IP: " ++ ipOut).font_(Font.monospace(16)).align_(\center),
 	),
 
+
 	HLayout(
 		StaticText().string_("cc: ").font_(font),
 		ccSelector = PopUpMenu().items_(Array.fill(128, {|i| i.asString})).allowsReselection_(true).font_(font),
 		listen = Button().states_([["Listen", Color.black, Color.white], ["Listening", Color.black, Color.green]]).font_(font),
 
 	),
-	slider = Slider();
+
+	slider = Slider(),
+	StaticText().string_("controlling" + label ++ "...").font_(Font.monospace(14)).align_(\center)
 );
 
 

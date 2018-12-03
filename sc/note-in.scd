@@ -9,7 +9,7 @@ var ipOut = "127.0.0.1";
 
 
 var toPD = NetAddr.new(ipOut, 57120);
-var window = Window("params", Rect(100,100,200,300));
+var window = Window("note-in", Rect(100,100,200,300));
 
 var text;
 var state = '';
@@ -42,6 +42,7 @@ MIDIFunc.noteOn({|val,num|
 });
 
 window.layout = VLayout(
+	StaticText().string_("IP:" + ipOut).font_(Font.monospace(14)).align_(\center),
 	text = StaticText().string_("key: C ").align_(\center).font_(Font.monospace(30)),
 );
 

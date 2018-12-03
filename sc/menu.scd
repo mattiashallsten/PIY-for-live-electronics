@@ -9,7 +9,7 @@ Here you select what to control. Change the control variable (currently says '/f
 * '/transpose'				change the root note
 * '/scale'					change modality: major, minor or harmonic minor
 */
-var control = '/chord';
+var control = '/transpose';
 
 /*
 |----------WHERE TO SEND OSC---------|
@@ -27,7 +27,7 @@ var toPD = NetAddr.new(
 		\pd, {8000}
 	)
 );
-var window = Window("selections", Rect(100,100,200,150));
+var window = Window("menu", Rect(100,100,200,150));
 
 var font = Font.monospace(16);
 
