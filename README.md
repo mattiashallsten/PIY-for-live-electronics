@@ -50,6 +50,6 @@ With this patch the user changes a selected parameter via a slider, which has th
 
 ![note-in.png](screenshots/note-in.png)
 
-In this patch the user can control the 'tranpose' parameter via midi NoteOn messages.
+In this patch the user can control the *tranpose* parameter via midi NoteOn messages.
 
 
