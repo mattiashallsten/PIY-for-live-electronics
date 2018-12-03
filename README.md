@@ -38,6 +38,8 @@ The user changes the modality: major, minor or hamronic minor.
 
 ### [sc/slider.scd](sc/slider.scd)
 
+![slider.png](screenshots/slider.png)
+
 With this patch the user changes a selected parameter via a slider, which has the possibility of being connected to a midi-enabled hardware controller. The available params are:
 
 #### freq
@@ -69,6 +71,8 @@ The user changes the overall velocity.
 The user changes the amount of reverb.
 
 ### [sc/note-in.scd](sc/note-in.scd)
+
+![note-in.png](screenshots/note-in.png)
 
 In this patch the user can control the 'tranpose' parameter via midi NoteOn messages.
 
