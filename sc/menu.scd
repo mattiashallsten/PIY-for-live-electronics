@@ -9,7 +9,7 @@ Here you select what to control. Change the control variable (currently says '/f
 * '/transpose'				change the root note
 * '/scale'					change modality: major, minor or harmonic minor
 */
-var control = '/transpose';
+var control = '/scale';
 
 /*
 |----------WHERE TO SEND OSC---------|

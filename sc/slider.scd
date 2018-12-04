@@ -20,7 +20,7 @@ Here you select where to send the control. Change the destination variable (curr
 * \sc						send to SuperCollider
 * \pd						send directly to PD
 */
-var destination = \pd;
+var destination = \sc;
 
 var ipOut = "127.0.0.1";
 var toPD = NetAddr.new(
@@ -30,7 +30,7 @@ var toPD = NetAddr.new(
 		\pd, {8000}
 	)
 );
-var window = Window("params", Rect(100,100,100,400));
+var window = Window("slider", Rect(100,100,100,400));
 
 var font = Font.monospace(13);
 
